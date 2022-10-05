@@ -1,13 +1,18 @@
-﻿#include <iostream>
+﻿// Lab_02.cpp
+// < Кульчицька Софія>
+// Лабораторна робота № 2.
+// Лінійні програми.
+// Варіант 7
+#include <iostream>
 #include <cmath>
 
 using namespace std;
 
 int main()
 {
-	double a;
-	//double z1;
-	double z2;
+	double a;//вхідний параметр
+	//double z1;//результат обчислення 1-го виразу
+	double z2;//результат обчислення 2-го виразу
 	const double PI = 3.14159265358979;
 
 	cout << "a = "; cin >> a;
